@@ -18,7 +18,7 @@ void main() {
     useCase = GetAudioMeta(mockAudioMetaRepository);
   });
 
-  final tAudioId = ;
+  final tAudioId = 'a';
   final tAudioMeta = AudioMeta(id: 'a', audioLength: 180000, bytes: 2222);
 
   test('should get audio meta from the repository', () async {
